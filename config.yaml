@@ -1,0 +1,14 @@
+input:
+  reference: "data/MN908947.3.fasta"
+  libraries:
+    sample:
+      genome: 'MN908947.3'
+      fastqs:
+        - data/sample.R1.paired.fq.gz
+        - data/sample.R2.paired.fq.gz
+
+output: "output"
+
+alignment:
+  threads: 4
+  min_mapq: 30
