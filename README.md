@@ -7,11 +7,11 @@ SRR15660643](https://www.ncbi.nlm.nih.gov/sra/?term=SRR15660643)) downsampled to
 paired reads to the Wuhan-Hu-1 reference genome ([Genbank accession
 MN908947.3](https://www.ncbi.nlm.nih.gov/nuccore/MN908947.3)).
 
-The pipeline uses `conda` integrated workflow management.
+The pipeline uses `conda` integrated workflow management and requires `snakemake`.
 
 ## Usage
 
-To install `snakemake`, run:
+To install `snakemake`, run (requires Python 3+):
 
 ```
 make install

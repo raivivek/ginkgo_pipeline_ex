@@ -1,7 +1,7 @@
 PHONY=dry_run run
 
 install:
-	@pip install snakemake
+	@python3 -m pip install snakemake
 
 dry_run:
 	@echo "-------------------"
