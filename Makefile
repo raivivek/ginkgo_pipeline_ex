@@ -1,5 +1,8 @@
 PHONY=dry_run run
 
+install:
+	@pip install snakemake
+
 dry_run:
 	@echo "-------------------"
 	@echo "This is a dryn run!"
