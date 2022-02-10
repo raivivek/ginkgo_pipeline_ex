@@ -5,11 +5,6 @@ from functools import partial
 data = partial(os.path.join, 'data')
 results = partial(os.path.join, config.get('output', 'results'))
 
-if config.get('container'):
-  print("Using container: %s" % config.get('container'))
-  containerized: config.get('container')
-else:
-  print("Using local environment")
 
 def iterate_all_libraries():
   return config['input']['libraries'].keys()
